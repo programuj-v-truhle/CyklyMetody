@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cykly1", "Cykly1\Cykly1.csproj", "{A29B1EE4-2F05-4EF0-85B2-0D5F9A808245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cykly2", "Cykly2\Cykly2.csproj", "{C19BDF12-E984-4F2C-AC67-1C07B46481C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A29B1EE4-2F05-4EF0-85B2-0D5F9A808245}.Debug|x86.ActiveCfg = Debug|x86
+		{A29B1EE4-2F05-4EF0-85B2-0D5F9A808245}.Debug|x86.Build.0 = Debug|x86
+		{A29B1EE4-2F05-4EF0-85B2-0D5F9A808245}.Release|x86.ActiveCfg = Release|x86
+		{A29B1EE4-2F05-4EF0-85B2-0D5F9A808245}.Release|x86.Build.0 = Release|x86
+		{C19BDF12-E984-4F2C-AC67-1C07B46481C6}.Debug|x86.ActiveCfg = Debug|x86
+		{C19BDF12-E984-4F2C-AC67-1C07B46481C6}.Debug|x86.Build.0 = Debug|x86
+		{C19BDF12-E984-4F2C-AC67-1C07B46481C6}.Release|x86.ActiveCfg = Release|x86
+		{C19BDF12-E984-4F2C-AC67-1C07B46481C6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
