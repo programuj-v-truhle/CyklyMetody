@@ -9,7 +9,7 @@ namespace Cykly
         static void Main(string[] args)
         {
             Console.WriteLine("Přesně za 2,5 vteřiny napišeš za trest 100 krát : \"Už nikdy nebudu házet křídou po spolužákovi!\" !!");
-            Thread.Sleep(3500); // Uspí hlavní vlákno programu na 2500 milisekund
+            Thread.Sleep(2500); // Uspí hlavní vlákno programu na 2500 milisekund
 
             // Cha, tak to pro mě není žádný trest...
             for (int i = 1; i <= 100; i++) // -> provádí se, dokud platí, že i < 100
@@ -17,7 +17,7 @@ namespace Cykly
 
            
             
-            Console.WriteLine("Odpočívej 2 vteřiny...");
+            Console.WriteLine("Odpočívej 3 vteřiny...");
             Console.WriteLine("... a pak jistotu ještě jednou to samé 100x...");
             
             Thread.Sleep(3000); // Zase uspí program na 3000 milisekund...
@@ -36,7 +36,7 @@ namespace Cykly
             Thread.Sleep(3000);
 
             
-            k = (k+1)/10; // přičti ke k jedničku a celé to poděl 10 (=> k = 10)
+            k = k/10; // poděl k 10 (=> k = 10)
 
             for (; k > 0; k--) // -> provádí se, dokud platí k > 0
                Console.WriteLine("{0}", k);
